@@ -13,7 +13,10 @@ I repeat the steps I took here in a mini tutorial format.
 
 Start with creating the layer from within Spacemacs:
 
-    <SPC> : configuration-layer/create-layer <RET>
+
+{% highlight console %}
+<SPC> : configuration-layer/create-layer <RET>
+{% endhighlight %}
 
 Press ```<RET>``` again to create the layer in the default directory ```$HOME/.emacs.d/private```.
 
