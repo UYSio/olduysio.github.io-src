@@ -16,7 +16,7 @@ layout: default
       {% if page.tags.size > 0 %}
         under
         {% for tag in page.tags %}
-          <a class="post-tag {{ tag | slugize }}" href="{{ site.url }}/tags/#{{ tag }}">{{ tag }}</a>
+          <a class="post-tag {{ tag | slugize }}" href="/tag/{{ tag }}">{{ tag }}</a>
         {% endfor %}
       {% endif %}
     </p>
